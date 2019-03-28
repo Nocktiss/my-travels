@@ -5,7 +5,7 @@ const Travel = ({ destination, country, distance, photo }) => {
 		<header className="header-header">
 			<img src={photo} className="header-logo" alt="img" />
 			<p>
-			Bienvenue au : <span>{destination}</span> dans la de  : <span>{country}</span>  à : {distance} de chez toi
+			Direction : <span>{destination}</span> dans la ville de  : <span>{country}</span>  à : {distance} de chez toi
         </p>
 		</header>
 	)

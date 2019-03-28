@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Travel from './components/Travel';
+import Travels from './components/Travels';
 import Navbar from './components/Navbar';
 import user from './user.json'
 import user1 from './user1.json'
@@ -12,6 +13,7 @@ class App extends Component {
         <Navbar {...user1}/>
         <Travel {...user}/>
         <Travel {...user1}/>
+        <Travels />
       </div>
     );
   }
